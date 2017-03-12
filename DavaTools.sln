@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageFeatures", "Languag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestDavaTools", "UnitTestDavaTools\UnitTestDavaTools.csproj", "{BF71A66E-CC6C-4A46-B5CB-8C0C3F9B9D51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfListShow", "WpfListShow\WpfListShow.csproj", "{CC2AFD1D-5C9E-40BB-83BB-8927FBBFBA5C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{BF71A66E-CC6C-4A46-B5CB-8C0C3F9B9D51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF71A66E-CC6C-4A46-B5CB-8C0C3F9B9D51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF71A66E-CC6C-4A46-B5CB-8C0C3F9B9D51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC2AFD1D-5C9E-40BB-83BB-8927FBBFBA5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2AFD1D-5C9E-40BB-83BB-8927FBBFBA5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2AFD1D-5C9E-40BB-83BB-8927FBBFBA5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2AFD1D-5C9E-40BB-83BB-8927FBBFBA5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

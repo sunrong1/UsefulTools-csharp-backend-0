@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfListShow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfListShow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <DataGrid x:Name="dataGrid" ItemsSource="{Binding}" AutoGenerateColumns="True" Margin="0,26,0,-26">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Width="80" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Age" Width="50" Binding="{Binding Age}"/>
+                <DataGridComboBoxColumn Width="80" Header="Sex" 
+                                        SelectedItemBinding="{Binding Sex}" 
+                                        ItemsSource="{Binding Date}"/>
+                <DataGridCheckBoxColumn Header="Pass Exam?" Width="100" 
+                                        Binding="{Binding Pass}"/>
+                <DataGridHyperlinkColumn Header="Email" Width="150" 
+                                         Binding="{Binding Email}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="268,182,0,0" VerticalAlignment="Top" Width="76"/>
+        <CheckBox x:Name="checkBox" Content="CheckBox" HorizontalAlignment="Left" Margin="374,184,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="27,218,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="109,170,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="89,222,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="ComboBox"/>
+        </ComboBox>
+    </Grid>
+</Window>
