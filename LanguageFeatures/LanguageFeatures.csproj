@@ -43,6 +43,7 @@
     <Compile Include="DelegateJoy.cs" />
     <Compile Include="DelegateEventTeacher.cs" />
     <Compile Include="DelegateXiaoMing.cs" />
+    <Compile Include="ExcelOperate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

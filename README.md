@@ -8,3 +8,4 @@ MY C# learning reposity.
 1. 2016-3-29：even delegate have a little difficult for me...Reading begin...
 2. 2016-5-21：终于入门事件委托，明天写个用例
 3. 2016-11-29:重新学习WPF
+4. 2017-3-12:之前的布局太乱，重新整理工程

@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExcelTest.cs" />
     <Compile Include="DelegateTest.cs" />
     <Compile Include="LinkedListTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
