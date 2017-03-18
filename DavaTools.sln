@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.4
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStructure", "DataStructure\DataStructure.csproj", "{47BFA9E7-A886-447E-B6FF-957F43B8CCB6}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfListShow", "WpfListShow\WpfListShow.csproj", "{CC2AFD1D-5C9E-40BB-83BB-8927FBBFBA5C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Form_Calc", "Calc\Form_Calc.csproj", "{B96502BD-21AA-4E42-A870-3B4C07463AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageFeaturesTests", "LanguageFeaturesTests\LanguageFeaturesTests.csproj", "{95F2E0B4-01AB-4898-8FED-65BD74788299}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,14 @@ Global
 		{B96502BD-21AA-4E42-A870-3B4C07463AD1}.Release|Any CPU.ActiveCfg = Release|x86
 		{B96502BD-21AA-4E42-A870-3B4C07463AD1}.Release|x86.ActiveCfg = Release|x86
 		{B96502BD-21AA-4E42-A870-3B4C07463AD1}.Release|x86.Build.0 = Release|x86
+		{95F2E0B4-01AB-4898-8FED-65BD74788299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F2E0B4-01AB-4898-8FED-65BD74788299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F2E0B4-01AB-4898-8FED-65BD74788299}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{95F2E0B4-01AB-4898-8FED-65BD74788299}.Debug|x86.Build.0 = Debug|Any CPU
+		{95F2E0B4-01AB-4898-8FED-65BD74788299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F2E0B4-01AB-4898-8FED-65BD74788299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95F2E0B4-01AB-4898-8FED-65BD74788299}.Release|x86.ActiveCfg = Release|Any CPU
+		{95F2E0B4-01AB-4898-8FED-65BD74788299}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

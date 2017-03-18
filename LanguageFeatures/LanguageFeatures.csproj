@@ -45,6 +45,7 @@
     <Compile Include="DelegateXiaoMing.cs" />
     <Compile Include="ExcelOperate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TimeKeeper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

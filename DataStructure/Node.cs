@@ -11,28 +11,14 @@
 
         public T Data
         {
-            get
-            {
-                return data;
-            }
-
-            set
-            {
-                data = value;
-            }
+            get => data;
+            set => data = value;
         }
 
         public Node<T> Next
         {
-            get
-            {
-                return next;
-            }
-
-            set
-            {
-                next = value;
-            }
+            get => next;
+            set => next = value;
         }
 
         //构造函数
@@ -53,6 +39,5 @@
             data = default(T);//获取T的默认值，引用类型null,值类型0
             next = null;
         }
-
     }
 }

@@ -16,15 +16,8 @@ namespace DataStructure
 
         public Node<T> Head
         {
-            get
-            {
-                return head;
-            }
-
-            set
-            {
-                head = value;
-            }
+            get => head;
+            set => head = value;
         }
 
         /// <summary>

@@ -32,7 +32,7 @@ namespace LanguageFeatures
             writer.Close();
             return true;
         }
-        //事件触发
+        //事件触发,只能内部触发
         public bool Issue()
         {
             if (OnOrderEvent != null)
