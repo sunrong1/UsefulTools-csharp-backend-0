@@ -51,6 +51,7 @@
     <Compile Include="ExcelTest.cs" />
     <Compile Include="DelegateTest.cs" />
     <Compile Include="LinkedListTest.cs" />
+    <Compile Include="MultiThreadTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +65,10 @@
     <ProjectReference Include="..\LanguageFeatures\LanguageFeatures.csproj">
       <Project>{4B6734A1-D9D3-4513-B10C-C586DD7A4FC0}</Project>
       <Name>LanguageFeatures</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MultiThread\MultiThread.csproj">
+      <Project>{01174AF9-9CBC-4505-938E-1B2D113DE076}</Project>
+      <Name>MultiThread</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
