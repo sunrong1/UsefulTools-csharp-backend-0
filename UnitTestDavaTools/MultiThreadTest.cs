@@ -60,10 +60,10 @@ namespace UnitTestDavaTools
         #endregion
 
         [TestMethod]
-        public void SimpleThreadTestMethodS()
+        public void SimpleThreadTestMethod()
         {
             SimpleThread testThread = new SimpleThread();
-            bool result =testThread.Show();
+            bool result =testThread.ShowParam();
             Assert.IsTrue(result);
         }
     }
