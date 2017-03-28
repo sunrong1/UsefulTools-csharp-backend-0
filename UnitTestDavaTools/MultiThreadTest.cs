@@ -66,5 +66,12 @@ namespace UnitTestDavaTools
             bool result =testThread.ShowParam();
             Assert.IsTrue(result);
         }
+        [TestMethod]
+        public void SimpleThreadPoolTestMethod()
+        {
+            SimpleThreadPool testThread = new SimpleThreadPool();
+            bool result = testThread.RunThreadPool();
+            Assert.IsTrue(result);
+        }
     }
 }
