@@ -63,7 +63,7 @@ namespace UnitTestDavaTools
         public void SimpleThreadTestMethod()
         {
             SimpleThread testThread = new SimpleThread();
-            bool result =testThread.ShowParam();
+            bool result =testThread.Show();
             Assert.IsTrue(result);
         }
         [TestMethod]
