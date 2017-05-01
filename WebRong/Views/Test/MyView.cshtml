@@ -1,10 +1,12 @@
 ﻿
+@using WebRong.ViewModels
+@model EmployeeListViewModel
 
 @{
 	//WebRong.Models.Employee emp =
 	// (WebRong.Models.Employee)ViewData["Employee"];
-	WebRong.Models.Employee emp =
-	 (WebRong.Models.Employee)ViewBag.Employee;
+	//WebRong.Models.Employee emp =
+	// (WebRong.Models.Employee)ViewBag.Employee;
 	Layout = null;
 }
 
@@ -16,10 +18,23 @@
     <title>MyView</title>
 </head>
 <body>
+	Hello @Model.UserName
+	<hr />
 	<div>
-		<b>Employee Details </b><br />
-		Employee Name : @emp.FirstName @emp.LastName <br />
-		Employee Salary: @emp.Salary.ToString("C")
+		<table>
+			<tr>
+				<th>Employee Name</th>
+				<th>Salary</th>
+			</tr>
+			@foreach (EmployeeViewModel item in Model.Employees)
+			{
+				<tr>
+					<td>@item.EmployeeName</td>
+					<td style="background-color:@item.SalaryColor">@item.Salary</td>
+				</tr>
+			}
+		</table>
 	</div>
+
 </body>
 </html>
