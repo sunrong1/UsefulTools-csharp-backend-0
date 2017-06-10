@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("Communication")]
+[assembly: AssemblyTitle("JavaScriptObj")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Communication")]
+[assembly: AssemblyProduct("JavaScriptObj")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("b6809b36-4c41-49e5-bf6a-dd15396b6eda")]
+[assembly: Guid("3fafee4d-cdd7-4923-896e-1755414be160")]
 
 // 程序集的版本信息由下列四个值组成: 
 //

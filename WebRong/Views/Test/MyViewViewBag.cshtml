@@ -1,0 +1,36 @@
+﻿
+@model          EmployeeListViewMode
+@{
+	//WebRong.Models.Employee emp =
+	// (WebRong.Models.Employee)ViewData["Employee"];
+	//WebRong.Models.Employee emp =
+	// (WebRong.Models.Employee)ViewBag.Employee;
+	Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MyView</title>
+</head>
+<body>
+	<div>
+		<b>Employee Details</b><br />
+		Employee Name : @Model.UserName @in Model.Employe
+		<br />
+		@item.EmployeeNag - 			<span style="background-color:yellow">
+				Employee Salary: @Model.Salary.ToString("C") 
+				
+			</span>
+		}
+		else
+		{
+			<span style="background-color:green">
+				Employee Salary: @Model.Salary
+			</span>
+		}
+	</div>
+</body>
+</html>
