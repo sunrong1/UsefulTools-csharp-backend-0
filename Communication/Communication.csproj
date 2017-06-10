@@ -40,11 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="HTM_JQuery.html" />
+    <Content Include="images\eye.png" />
+    <Content Include="images\eye_2.png" />
+    <Content Include="images\firefox-icon.png" />
+    <Content Include="index.html" />
+    <Content Include="script\main.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
